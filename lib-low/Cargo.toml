@@ -1,0 +1,9 @@
+[package]
+name = "lib-low"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+
+[features]
+bad = []

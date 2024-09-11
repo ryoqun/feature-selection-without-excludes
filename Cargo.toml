@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "lib-low",
+    "bin-high-bad",
+    "bin-high",
+]
+resolver = "2"
+
+[workspace.dependencies]
+lib-low = { path = "lib-low" }

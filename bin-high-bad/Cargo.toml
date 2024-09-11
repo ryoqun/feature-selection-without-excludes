@@ -1,0 +1,7 @@
+[package]
+name = "bin-high-bad"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+lib-low = { workspace = true, features = ["bad"] }
